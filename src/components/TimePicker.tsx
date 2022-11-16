@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 // components
 import TimeDisplay from "../components/TimeDisplay";
@@ -29,6 +29,10 @@ export default function TimePicker() {
 			? setMinute("0" + e.target.value)
 			: setMinute(e.target.value);
 	};
+
+	useEffect(() => {
+		setCurrentTime();
+	}, []);
 
 	return (
 		<div className="flex flex-col space-y-3 w-full items-center">
