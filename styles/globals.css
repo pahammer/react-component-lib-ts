@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	input[type="range"] {
+		width: 85%;
+		height: 46px;
+		-webkit-appearance: none;
+		background: #fff;
+		outline: none;
+		border-radius: 15px;
+		overflow: hidden;
+		box-shadow: inset 0 0 2px #d1d5db;
+	}
+	input[type="range"]::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		width: 15px;
+		height: 46px;
+		border-radius: 55%;
+		background: #f3f4f6;
+		cursor: pointer;
+		border: 0;
+		box-shadow: -407px 0 0 400px #d1d5db;
+	}
+}
+
+/* https://shiksha-com.medium.com/input-range-slider-e771132468b1 */
