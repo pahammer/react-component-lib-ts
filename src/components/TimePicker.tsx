@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 // components
-import TimeDisplay from "../components/TimeDisplay";
+import TimeDisplay from "./form/TimeDisplay";
 import Slider from "../components/form/Slider";
 import CurrentTimeButton from "../components/form/CurrentTimeButton";
 
