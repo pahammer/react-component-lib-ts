@@ -58,7 +58,7 @@ function EditableNameComponent({
 			/>
 			<button
 				onClick={() => handleSave(tempName)}
-				className="h-10 bg-green-700/25 rounded-sm p-1"
+				className="h-10 bg-violet-500 text-white rounded-sm p-1"
 			>
 				{CheckMarkComponent}
 			</button>

@@ -17,7 +17,7 @@ export default function Slider({
 }: SliderProps) {
 	return (
 		<div className="relative w-full flex justify-center">
-			<div className="absolute top-3 text-purple-300 uppercase font-bold text-sm">
+			<div className="absolute top-[9px] text-violet-300 uppercase font-bold text-sm">
 				{title}
 			</div>
 			<input
